@@ -27,8 +27,7 @@ reinforcement-learning-projects/
 ## **Getting Started**
 To explore any of the RL projects:
 1. **Clone the repository**:
-git clone https://github.com/your_username/reinforcement-le
-arning-projects.git
+git clone https://github.com/your_username/reinforcement-learning-projects.git
 cd reinforcement-learning-projects
 2. **Navigate to a specific project folder**:
 cd project-1
