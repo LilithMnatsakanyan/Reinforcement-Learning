@@ -2,11 +2,14 @@
 
 This project applies **Reinforcement Learning (RL)** to train an agent that plays **Tic Tac Toe** by learning from experience. It features both a **Python-based RL implementation** and a **web-based environment** (HTML, CSS, JavaScript) for interaction.  
 
-Inspired by:  
+## **📖 References**  
+
+This repository is inspired by:  
+
 - **Reinforcement Learning: An Introduction**  
   **Richard S. Sutton & Andrew G. Barto**  
   _Second Edition, MIT Press, 2018_  
-  [Read more]([https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf))  
+  [Read more](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)  
 
 ---
 
