@@ -110,7 +110,7 @@ This repository is inspired by:
 - **Reinforcement Learning: An Introduction**  
   **Richard S. Sutton & Andrew G. Barto**  
   _Second Edition, MIT Press, 2018_  
-  [Read more](https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html)  
+  [Read more](https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)  
 
 ---
 
