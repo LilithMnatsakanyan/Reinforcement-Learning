@@ -16,7 +16,7 @@ rl_player.load_policy()
 @app.route('/move', methods=['POST'])
 def get_move():
     data = request.get_json()
-    state_data = np.array(data['state']).reshape(3, 3)  # ✅ Define state_data here
+    state_data = np.array(data['state']).reshape(3, 3)  #  Define state_data here
 
     # Create a state object and set it for the RL player
     state = State()
