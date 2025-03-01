@@ -38,8 +38,8 @@ tic-tac-toe-rl/
 
 ### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR_USERNAME/tic-tac-toe-rl.git  
-cd tic-tac-toe-rl  
+git clone https://github.com/LilithMnatsakanyan/tic-tac-toe.git  
+cd tic-tac-toe
 ```
 
 ### 2️⃣ **Install Dependencies**  
