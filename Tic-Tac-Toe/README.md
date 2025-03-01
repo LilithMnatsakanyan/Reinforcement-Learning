@@ -85,6 +85,3 @@ For example, pressing `q` places a move in the **top-left** corner, and `d` plac
 - **Policy Updates**: Uses different strategies for first and second players.  
 - **Judging System**: `judge.py` evaluates game outcomes for training.   
 
----
-
-Let me know if you'd like any refinements! 🚀
