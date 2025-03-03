@@ -38,8 +38,8 @@ tic-tac-toe-rl/
 
 ### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR_USERNAME/tic-tac-toe-rl.git  
-cd tic-tac-toe-rl  
+git clone https://github.com/LilithMnatsakanyan/tic-tac-toe.git  
+cd tic-tac-toe
 ```
 
 ### 2️⃣ **Install Dependencies**  
@@ -85,6 +85,3 @@ For example, pressing `q` places a move in the **top-left** corner, and `d` plac
 - **Policy Updates**: Uses different strategies for first and second players.  
 - **Judging System**: `judge.py` evaluates game outcomes for training.   
 
----
-
-Let me know if you'd like any refinements! 🚀
