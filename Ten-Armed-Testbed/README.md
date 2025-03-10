@@ -17,7 +17,7 @@ This repository is inspired by:
 ```
 Ten-Armed-Testbed/
 │── src/                      # Core implementation
-│   ├── bandit.py             # Multi-armed bandit simulation
+│   ├── bandit.py             
 │   ├── __init__.py  
 │── notebooks/                # Jupyter Notebooks for experimentation
 │   ├── ten_armed_testbed.ipynb
