@@ -18,9 +18,16 @@ This repository is inspired by:
 Ten-Armed-Testbed/
 │── src/                      # Core implementation
 │   ├── bandit.py             # Multi-armed bandit simulation
-│   ├── (Other Python files)  # Additional implementation files
+│   ├── __init__.py  
 │── notebooks/                # Jupyter Notebooks for experimentation
+│   ├── ten_armed_testbed.ipynb
 │── generated_images/         # Saved plots from simulations
+│   ├── figure_2_1.png
+│   ├── figure_2_2.png
+│   ├── figure_2_3.png
+│   ├── figure_2_4.png
+│   ├── figure_2_5.png
+│   ├── figure_2_5_10000_steps.png
 │── requirements.txt          # Dependencies
 │── README.md                 # Project documentation
 ```
@@ -31,7 +38,7 @@ Ten-Armed-Testbed/
 
 ### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/YourUsername/Ten-Armed-Testbed.git  
+git clone https://github.com/LilithMnatsakanyan/Ten-Armed-Testbed.git  
 cd Ten-Armed-Testbed
 ```
 ### 2️⃣ **Install Dependencies**
