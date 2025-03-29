@@ -79,6 +79,8 @@ The optimal policy guides the agent towards maximizing cumulative rewards. The *
 
 📈 **Example Visualization:**
 
+![figure_3_5.png](generated_images/figure_3_5.png)
+
 ![figure_3_5_policy.png](generated_images/figure_3_5_policy.png)
 
 (This image showcases the computed optimal policy derived from policy iteration.)
