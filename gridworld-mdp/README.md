@@ -69,7 +69,8 @@ In **Gridworld**, an agent moves in a 2D grid with rewards assigned to different
 📈 **Example Visualization:**
 
 ![figure_3_2.png](generated_images/figure_3_2.png)
-_(This image represents the computed state-value function for the Gridworld MDP.)_
+
+(This image represents the computed state-value function for the Gridworld MDP.)
 
 ---
 
@@ -79,7 +80,8 @@ The optimal policy guides the agent towards maximizing cumulative rewards. The *
 📈 **Example Visualization:**
 
 ![figure_3_5_policy.png](generated_images/figure_3_5_policy.png)
-_(This image showcases the computed optimal policy derived from policy iteration.)_
+
+(This image showcases the computed optimal policy derived from policy iteration.)
 
 ---
 
