@@ -26,13 +26,10 @@ Reinforcement-Learning/
 │── project-1/
 │   ├── README.md          # Project-specific details
 │   ├── main.py            # Main script to run the project
-│   ├── environment.py     # Custom environment setup
 │   ├── requirements.txt   # Dependencies for this project
 │── project-2/
 │   ├── README.md
-│   ├── agent.py           # Agent implementation
-│   ├── train.py           # Training script
-│   ├── environment.py
+│   ├── project.py           # Agent implementation
 │── ...
 │── README.md              # Main repository README
 ```
@@ -82,11 +79,7 @@ python main.py  # Or train.py depending on the project
 
 ### ✅ **3. Custom Environments**  
    - Creating unique **simulation environments** for RL models.  
-   - Using **OpenAI Gym** or custom-built environments.  
 
-### ✅ **4. Evaluation & Hyperparameter Tuning**  
-   - Analyzing **agent performance** and optimizing **hyperparameters**.  
-   - Implementing **A/B testing** for different training strategies.  
 
 ---
 
@@ -96,8 +89,6 @@ This repository primarily uses:
 - **Python 3.x**  
 - **NumPy, Pandas** (Data handling)  
 - **Matplotlib, Seaborn** (Visualization)  
-- **TensorFlow / PyTorch** (Deep learning frameworks)  
-- **OpenAI Gym** (Standard RL environments)  
 
 Each project's `requirements.txt` will list the exact dependencies needed.  
 

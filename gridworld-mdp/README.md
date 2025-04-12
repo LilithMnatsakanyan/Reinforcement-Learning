@@ -29,22 +29,6 @@ gridworld-mdp/
 │── __init__.py  
 │── README.md                 # Project documentation
 ```
-
----
-
-## **🚀 Getting Started**
-
-### 1️⃣ **Clone the Repository**
-```sh
-git clone https://github.com/LilithMnatsakanyan/gridworld-mdp.git  
-cd gridworld-mdp
-```
-
-### 2️⃣ **Install Dependencies**
-```sh
-pip install -r requirements.txt  
-```
-
 ---
 
 ## 📌 Key Features
@@ -68,9 +52,10 @@ In **Gridworld**, an agent moves in a 2D grid with rewards assigned to different
 
 📈 **Example Visualization:**
 
-![figure_3_2.png](generated_images/figure_3_2.png)
+<img src="generated_images/figure_3_2.png" width="400"/>
 
-(This image represents the computed state-value function for the Gridworld MDP.)
+
+_This image represents the computed state-value function for the Gridworld MDP._
 
 ---
 
@@ -79,11 +64,12 @@ The optimal policy guides the agent towards maximizing cumulative rewards. The *
 
 📈 **Example Visualization:**
 
-![figure_3_5.png](generated_images/figure_3_5.png)
+<img src="generated_images/figure_3_5.png" width="400"/>
 
-![figure_3_5_policy.png](generated_images/figure_3_5_policy.png)
+<img src="generated_images/figure_3_5_policy.png" width="400"/>
 
-(This image showcases the computed optimal policy derived from policy iteration.)
+
+_This image showcases the computed optimal policy derived from policy iteration._
 
 ---
 

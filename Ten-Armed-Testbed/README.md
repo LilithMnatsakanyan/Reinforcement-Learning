@@ -34,25 +34,6 @@ Ten-Armed-Testbed/
 
 ---
 
-## **🚀 Getting Started**  
-
-### 1️⃣ **Clone the Repository**  
-```sh
-git clone https://github.com/LilithMnatsakanyan/Ten-Armed-Testbed.git  
-cd Ten-Armed-Testbed
-```
-### 2️⃣ **Install Dependencies**
-```sh
-pip install -r requirements.txt  
-```
-### ️3️⃣ **Run and experiment with Jupyter Notebooks**
-
-```sh
-notebooks/ten_armed_testbed.ipynb
-```
-
----
-
 ## 📌 Key Features
 
 ✅ Models the **k-armed bandit problem**, simulating environments with multiple actions of unknown reward distributions.  
@@ -74,7 +55,7 @@ In the **k-armed bandit problem**, each action has an **unknown true reward**, m
 
 ### 📈 **Plot:** 
 
-![figure_2_1.png](generated_images%2Ffigure_2_1.png)
+<img src="generated_images/figure_2_1.png" width="400"/>
 
 ---
 
@@ -90,7 +71,7 @@ In the **k-armed bandit problem**, each action has an **unknown true reward**, m
 
 ### 📈 **Plot:** 
 
-![figure_2_2.png](generated_images%2Ffigure_2_2.png)
+<img src="generated_images/figure_2_2.png" width="400"/>
 
 ---
 
@@ -104,7 +85,7 @@ A common way to encourage exploration **without ε-greedy randomness** is using 
 
 ### 📈 **Plot:** 
 
-![figure_2_3.png](generated_images%2Ffigure_2_3.png)
+<img src="generated_images/figure_2_3.png" width="400"/>
 
 ---
 
@@ -121,7 +102,7 @@ Instead of exploring randomly, **UCB-based methods** select actions based on the
 
 ### 📈 **Plot:** 
 
-![figure_2_4.png](generated_images%2Ffigure_2_4.png)
+<img src="generated_images/figure_2_4.png" width="400"/>
 
 ---
 
@@ -130,7 +111,7 @@ Unlike value-based methods, **Gradient Bandit Algorithms** focus on learning **p
 
 ### 📈 **Plot:** 
 
-![figure_2_5.png](generated_images%2Ffigure_2_5.png)
+<img src="generated_images/figure_2_5.png" width="400"/>
 
 #### **Key Insights:**
 - **Policy-Based Approach:** Uses **softmax probabilities** instead of maintaining action-value estimates.
@@ -142,7 +123,7 @@ Unlike value-based methods, **Gradient Bandit Algorithms** focus on learning **p
 
 ### 📈 **Plot:** 
 
-![figure_2_5_10000_steps.png](generated_images%2Ffigure_2_5_10000_steps.png)
+<img src="generated_images/figure_2_5_10000_steps.png" width="400"/>
 
 ---
 

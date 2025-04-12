@@ -28,27 +28,6 @@ gridworld-dp/
 │   ├── figure_4_1_out_place.png     # Out-of-place policy evaluation results
 │── README.md                 # Project documentation
 ```
-
----
-
-## **🚀 Getting Started**
-
-### 1️⃣ **Clone the Repository**
-```sh
-git clone https://github.com/LilithMnatsakanyan/gridworld-dp.git  
-cd gridworld-dp
-```
-
-### 2️⃣ **Install Dependencies**
-```sh
-pip install -r requirements.txt  
-```
-
-### ️3️⃣ **Run and experiment with Jupyter Notebooks**
-```sh
-jupyter notebook notebooks/grid_world.ipynb
-```
-
 ---
 
 ## 📌 Key Features
@@ -68,9 +47,9 @@ This approach updates the value of each state as soon as a new estimate is avail
 
 📈 **Visualization:**
 
-![figure_4_1_in_place.png](generated_images/figure_4_1_in_place.png)
+<img src="generated_images/figure_4_1_in_place.png" width="400"/>
 
-(This plot shows the value function computed using in-place dynamic programming.)
+_This plot shows the value function computed using in-place dynamic programming._
 
 ---
 
@@ -79,9 +58,9 @@ This approach computes the entire new value function based on the old one before
 
 📈 **Visualization:**
 
-![figure_4_1_out_place.png](generated_images/figure_4_1_out_place.png)
+<img src="generated_images/figure_4_1_out_place.png" width="400"/>
 
-(This plot illustrates the value function computed using out-of-place updates.)
+_This plot illustrates the value function computed using out-of-place updates._
 
 ---
 
