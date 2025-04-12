@@ -57,7 +57,7 @@ These are visualizations of simulation results for different strategies applied 
 
 📈 **Visualization:**
 
-<img src="generated_images/figure_4_3.PNG" alt="Figure 4.3" width="400"/>
+<img src="generated_images/figure_4_3.png" alt="Figure 4.3" width="400"/>
 
 _This plot shows the results generated from the gambler’s problem using dynamic programming._
 
