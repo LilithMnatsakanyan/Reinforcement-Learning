@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="-Monte Carlo">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="-Monte Carlo modified">
+      <change afterPath="$PROJECT_DIR$/infinite-variance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infinite-variance/notebooks/infinite_variance.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infinite-variance/src/infinite_variance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/generated_images/figure_5_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/generated_images/figure_5_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/generated_images/figure_5_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/generated_images/figure_5_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/notebooks/black_jack.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/notebooks/black_jack1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/src/black_jack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/src/black_jack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +43,12 @@
     &quot;assignee&quot;: &quot;LilithMnatsakanyan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LilithMnatsakanyan/Reinforcement-Learning&quot;,
-    &quot;accountId&quot;: &quot;9fb64220-ed5c-4290-b29d-c32b59f7482d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LilithMnatsakanyan/Reinforcement-Learning",
+    "accountId": "ac77149f-455c-411a-8f2a-b15dfe8370ab"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -94,11 +92,11 @@
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance\src" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\.idea" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed\venv" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -151,7 +149,7 @@
       <workItem from="1745769807399" duration="1152000" />
       <workItem from="1745770989370" duration="284000" />
       <workItem from="1745771292995" duration="763000" />
-      <workItem from="1745772326074" duration="1326000" />
+      <workItem from="1745772326074" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -297,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744621032449</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="-Monte Carlo modified">
+      <option name="closed" value="true" />
+      <created>1745773720441</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745773720441</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,8 @@
     <MESSAGE value="- Finished the README file." />
     <MESSAGE value="- Changed the README files." />
     <MESSAGE value="-Monte Carlo" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Monte Carlo" />
+    <MESSAGE value="-Monte Carlo modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Monte Carlo modified" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$grid_world.coverage" NAME="grid_world Coverage Results" MODIFIED="1743414650113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gridworld-dp/src" />
