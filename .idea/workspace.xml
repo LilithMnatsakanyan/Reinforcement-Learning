@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Changed the README files.">
-      <change afterPath="$PROJECT_DIR$/blackjack/__init__.py" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="-Monte Carlo">
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/generated_images/figure_5_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/generated_images/figure_5_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/generated_images/figure_5_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/generated_images/figure_5_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/notebooks/black_jack.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/notebooks/black_jack1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/src/black_jack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/src/black_jack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,7 @@
     "JavaScript Debug.index.html.executor": "Run",
     "Python.app.executor": "Run",
     "Python.bandit.executor": "Run",
+    "Python.black_jack.executor": "Run",
     "Python.grid_world.executor": "Run",
     "Python.tic_tac_toe.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -70,7 +75,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/Tic-Tac-Toe/src",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,22 +88,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\.idea" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed\venv" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed\generated_images" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -136,7 +144,14 @@
       <workItem from="1744045449596" duration="11000" />
       <workItem from="1744458475737" duration="4278000" />
       <workItem from="1744465120622" duration="10000" />
-      <workItem from="1744614415643" duration="6423000" />
+      <workItem from="1744614415643" duration="6477000" />
+      <workItem from="1744651693574" duration="702000" />
+      <workItem from="1744654446018" duration="32000" />
+      <workItem from="1744780360753" duration="23000" />
+      <workItem from="1745769807399" duration="1152000" />
+      <workItem from="1745770989370" duration="284000" />
+      <workItem from="1745771292995" duration="763000" />
+      <workItem from="1745772326074" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -274,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744464682647</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="-Monte Carlo">
+      <option name="closed" value="true" />
+      <created>1744621032449</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744621032449</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,12 +307,14 @@
     <MESSAGE value="- Finished the project and added the README file." />
     <MESSAGE value="- Finished the README file." />
     <MESSAGE value="- Changed the README files." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Changed the README files." />
+    <MESSAGE value="-Monte Carlo" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Monte Carlo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$grid_world.coverage" NAME="grid_world Coverage Results" MODIFIED="1743414650113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gridworld-dp/src" />
-    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1743247494154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1743247628493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$bandit.coverage" NAME="bandit Coverage Results" MODIFIED="1741622953722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ten-Armed-Testbed/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1743247494154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$black_jack.coverage" NAME="black_jack Coverage Results" MODIFIED="1745772620876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack/src" />
   </component>
 </project>

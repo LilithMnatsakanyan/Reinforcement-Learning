@@ -8,8 +8,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Ten-Armed-Testbed/venv/Scripts" />
       <excludeFolder url="file://$MODULE_DIR$/Ten-Armed-Testbed/venv/etc" />
       <excludeFolder url="file://$MODULE_DIR$/Ten-Armed-Testbed/venv/share" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (Reinforcement_Learning)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
