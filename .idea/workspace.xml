@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="-Monte Carlo modified">
-      <change afterPath="$PROJECT_DIR$/infinite-variance/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infinite-variance/notebooks/infinite_variance.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infinite-variance/src/infinite_variance.py" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Random Walk added">
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/lose.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/tie.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/win.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +48,12 @@
     &quot;assignee&quot;: &quot;LilithMnatsakanyan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LilithMnatsakanyan/Reinforcement-Learning",
-    "accountId": "ac77149f-455c-411a-8f2a-b15dfe8370ab"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LilithMnatsakanyan/Reinforcement-Learning&quot;,
+    &quot;accountId&quot;: &quot;ac77149f-455c-411a-8f2a-b15dfe8370ab&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -60,30 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.bandit.executor": "Run",
-    "Python.black_jack.executor": "Run",
-    "Python.grid_world.executor": "Run",
-    "Python.tic_tac_toe.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
@@ -92,11 +99,11 @@
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\src\sounds" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance\notebooks" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack\notebooks" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Ten-Armed-Testbed" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -149,7 +156,9 @@
       <workItem from="1745769807399" duration="1152000" />
       <workItem from="1745770989370" duration="284000" />
       <workItem from="1745771292995" duration="763000" />
-      <workItem from="1745772326074" duration="1619000" />
+      <workItem from="1745772326074" duration="1981000" />
+      <workItem from="1745830741179" duration="4229000" />
+      <workItem from="1746120900459" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -303,7 +312,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745773720441</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="- Infinite variance added">
+      <option name="closed" value="true" />
+      <created>1745774131432</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1745774131432</updated>
+    </task>
+    <task id="LOCAL-00021" summary="- Random Walk added">
+      <option name="closed" value="true" />
+      <created>1745835004912</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1745835004912</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,13 +340,17 @@
     <MESSAGE value="- Changed the README files." />
     <MESSAGE value="-Monte Carlo" />
     <MESSAGE value="-Monte Carlo modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Monte Carlo modified" />
+    <MESSAGE value="- Infinite variance added" />
+    <MESSAGE value="- Random Walk added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Random Walk added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$grid_world.coverage" NAME="grid_world Coverage Results" MODIFIED="1743414650113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gridworld-dp/src" />
-    <SUITE FILE_PATH="coverage/Reinforcement_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1743247628493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1746129120483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$infinite_variance.coverage" NAME="infinite_variance Coverage Results" MODIFIED="1745773967870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/infinite-variance/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$bandit.coverage" NAME="bandit Coverage Results" MODIFIED="1741622953722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ten-Armed-Testbed/src" />
-    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1743247494154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1746122500772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1745834198359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$black_jack.coverage" NAME="black_jack Coverage Results" MODIFIED="1745772620876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack/src" />
   </component>
 </project>

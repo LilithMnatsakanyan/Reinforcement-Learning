@@ -10,8 +10,16 @@ CORS(app)
 # Load RL Player
 all_states = get_all_states(rows=3, columns=3)
 rl_player = RLPlayer(all_states, epsilon=0)
+rl_player.set_symbol(-1)
 rl_player.load_policy()
 
+@app.route('/set_symbol', methods=['POST'])
+def set_symbol():
+    data = request.get_json()
+    symbol = data['symbol']  # 1 կամ -1
+    rl_player.set_symbol(symbol)
+    rl_player.load_policy()
+    return jsonify({"message": "Policy loaded."})
 
 @app.route('/move', methods=['POST'])
 def get_move():

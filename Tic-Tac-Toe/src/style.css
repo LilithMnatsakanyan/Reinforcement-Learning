@@ -1,36 +1,44 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 0;
+    padding: 40px 0;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #333;
 }
 
 .container {
     display: inline-block;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .cell {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    font-size: 2em;
+    border: 2px solid #444;
+    font-size: 2.5em;
     cursor: pointer;
     user-select: none;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    transition: background-color 0.3s;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 .cell:hover {
-    background-color: #ddd;
+    background-color: #ececec;
+    transform: scale(1.05);
 }
 
 button {
@@ -41,9 +49,32 @@ button {
     border: none;
     background-color: #007bff;
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Symbol chooser buttons */
+.symbol-chooser {
+    margin-bottom: 20px;
+}
+
+.symbol-btn {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.symbol-btn:hover {
+    background-color: #218838;
+    transform: scale(1.1);
 }
