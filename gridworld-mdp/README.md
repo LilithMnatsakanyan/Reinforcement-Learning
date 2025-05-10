@@ -1,4 +1,4 @@
-# **Gridworld MDP**
+# **Reinforcement Learning: Gridworld MDP**
 
 This project implements the **Gridworld Markov Decision Process (MDP)**, a fundamental environment in **Reinforcement Learning (RL)**. It is inspired by **Chapter 3: Finite Markov Decision Processes** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 

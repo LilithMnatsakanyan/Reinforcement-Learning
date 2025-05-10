@@ -1,4 +1,4 @@
-# **Multi-Armed Bandit: Ten-Armed Testbed**  
+# **Reinforcement Learning: Multi-Armed Bandit: Ten-Armed Testbed**  
 
 This project models the **k-armed bandit problem**, exploring various action selection strategies to optimize reward learning. The implementation includes flexible exploration methods, incremental action-value estimation, and high-resolution visualizations.
 

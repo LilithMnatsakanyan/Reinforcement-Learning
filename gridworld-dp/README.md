@@ -1,4 +1,4 @@
-# **Gridworld DP**
+# **Reinforcement Learning: Gridworld DP**
 
 This project implements **Dynamic Programming (DP)** methods in the **Gridworld** environment, based on **Chapter 4: Dynamic Programming** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 

@@ -1,4 +1,4 @@
-# **Windy Gridworld**
+# **Reinforcement Learning: Windy Gridworld**
 
 This project implements the **SARSA (State-Action-Reward-State-Action)** algorithm to solve the **Windy Gridworld** problem, as presented in **Chapter 6: Temporal-Difference Learning**, specifically **Example 6.5**, from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 

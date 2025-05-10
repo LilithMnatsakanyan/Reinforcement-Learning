@@ -1,4 +1,4 @@
-# **Infinite Variance in Off-Policy Evaluation**
+# **Reinforcement Learning: Infinite Variance**
 
 This project explores the phenomenon of **infinite variance** in **Monte Carlo off-policy evaluation** using **importance sampling**, based on **Chapter 5: Monte Carlo Methods** from *Reinforcement Learning: An Introduction* by **Richard S. Sutton & Andrew G. Barto**.
 

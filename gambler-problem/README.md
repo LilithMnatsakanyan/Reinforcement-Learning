@@ -1,4 +1,4 @@
-# **Gambler’s Problem**
+# **Reinforcement Learning: Gambler’s Problem**
 
 This project implements solutions to the **Gambler’s Problem**, based on **Chapter 4: Dynamic Programming** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 

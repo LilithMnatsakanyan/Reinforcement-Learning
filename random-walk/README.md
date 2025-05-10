@@ -1,5 +1,5 @@
 
-# **Random Walk**
+# **Reinforcement Learning: Random Walk**
 
 This project implements **Monte Carlo (MC)** and **Temporal-Difference (TD(0))** learning for solving the **Random Walk** problem, based on **Chapter 6: Temporal-Difference Learning**, specifically **Example 6.2**, from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 

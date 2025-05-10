@@ -1,4 +1,4 @@
-# **Blackjack RL**
+# **Reinforcement Learning: Blackjack**
 
 This project implements Monte Carlo methods for solving the **Blackjack** environment, based on **Chapter 5: Monte Carlo Methods** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
