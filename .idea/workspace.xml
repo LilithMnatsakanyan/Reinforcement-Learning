@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Random Walk added">
-      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/click.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/lose.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/tie.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/win.mp3" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Some changes">
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/click.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/src/sounds/click.mp3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
+        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
       </set>
     </attachedChunks>
   </component>
@@ -158,7 +151,13 @@
       <workItem from="1745771292995" duration="763000" />
       <workItem from="1745772326074" duration="1981000" />
       <workItem from="1745830741179" duration="4229000" />
-      <workItem from="1746120900459" duration="8062000" />
+      <workItem from="1746120900459" duration="8129000" />
+      <workItem from="1746179073865" duration="477000" />
+      <workItem from="1746887119976" duration="922000" />
+      <workItem from="1746888064183" duration="404000" />
+      <workItem from="1746888581986" duration="78000" />
+      <workItem from="1746888776880" duration="36000" />
+      <workItem from="1746888819717" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -328,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745835004912</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="- Some changes">
+      <option name="closed" value="true" />
+      <created>1746131907289</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746131907289</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +349,8 @@
     <MESSAGE value="-Monte Carlo modified" />
     <MESSAGE value="- Infinite variance added" />
     <MESSAGE value="- Random Walk added" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Random Walk added" />
+    <MESSAGE value="- Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Some changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$grid_world.coverage" NAME="grid_world Coverage Results" MODIFIED="1743414650113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gridworld-dp/src" />
