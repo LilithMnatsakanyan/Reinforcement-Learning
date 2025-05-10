@@ -10,7 +10,7 @@ class State:
         :param rows: number of board's rows
         :param columns: number of board's columns
 
-        The Tic-Tac-Toe game board is represented by an n * n array, where:
+        The tic-tac-toe game board is represented by an n * n array, where:
         a. 0 represents an empty position,
         b. 1 represents the player who moves first,
         c. -1 represents another player.
