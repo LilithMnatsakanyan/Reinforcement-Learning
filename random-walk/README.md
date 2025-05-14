@@ -3,13 +3,6 @@
 
 This project implements **Monte Carlo (MC)** and **Temporal-Difference (TD(0))** learning for solving the **Random Walk** problem, based on **Chapter 6: Temporal-Difference Learning**, specifically **Example 6.2**, from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
-## **📖 References**
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](http://incompleteideas.net/book/RLbook2020.pdf)
 
 ---
 
@@ -40,7 +33,7 @@ random_walk/
 ✅ Modular implementation suitable for further RL experimentation
 
 ---
-## 🎮 **Environment Overview**
+## ⚙️ **Environment Overview**
 
 - A **1D grid world** with **7 states**:
   - Terminal: `State 0 (Left), State 6 (Right)`
@@ -94,7 +87,7 @@ These figures illustrate the expected value predictions and comparisons:
 <img src="book_images/Example_6_2_top.PNG" alt="Sutton Example Top" width="400"/>
 <img src="book_images/Example_6_2_bottom.PNG" alt="Sutton Example Bottom" width="400"/>
 
-_(These serve as theoretical reference baselines.)_
+_These serve as theoretical reference baselines._
 
 ---
 

@@ -2,13 +2,6 @@
 
 This project implements Monte Carlo methods for solving the **Blackjack** environment, based on **Chapter 5: Monte Carlo Methods** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
-## **📖 References**
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
 
 ---
 
@@ -53,7 +46,7 @@ These figures illustrate the state-value estimates for the Blackjack problem.
 <img src="book_images/Figure_5_2.PNG" alt="Sutton Fig 5.2" width="400"/>
 <img src="book_images/Figure_5_3.PNG" alt="Sutton Fig 5.3" width="400"/>
 
-_(These are taken directly from the book and serve as ground truth references.)_
+_These are taken directly from the book and serve as ground truth references._
 
 ---
 

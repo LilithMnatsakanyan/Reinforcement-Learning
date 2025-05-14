@@ -2,14 +2,6 @@
 
 This project implements **Dynamic Programming (DP)** methods in the **Gridworld** environment, based on **Chapter 4: Dynamic Programming** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
-## **📖 References**
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
-
 ---
 
 ## **📂 Project Structure**

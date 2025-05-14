@@ -2,15 +2,6 @@
 
 This project models the **k-armed bandit problem**, exploring various action selection strategies to optimize reward learning. The implementation includes flexible exploration methods, incremental action-value estimation, and high-resolution visualizations.
 
-## **📖 References**  
-
-This repository is inspired by:  
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)  
-
 ---  
 
 ## **📂 Project Structure**  

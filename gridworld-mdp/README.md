@@ -2,13 +2,6 @@
 
 This project implements the **Gridworld Markov Decision Process (MDP)**, a fundamental environment in **Reinforcement Learning (RL)**. It is inspired by **Chapter 3: Finite Markov Decision Processes** from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
-## **📖 References**
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
 
 ---
 

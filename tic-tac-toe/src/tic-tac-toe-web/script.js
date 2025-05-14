@@ -3,7 +3,7 @@ const status = document.getElementById("status");
 const restartButton = document.getElementById("restartButton");
 const symbolChooser = document.getElementById("symbolChooser");
 
-// 🔊 Ձայնային ֆայլեր (ձայնը պետք է լինի նույն թղթապանակում կամ համապատասխան path-ով)
+//  Ձայնային ֆայլեր (ձայնը պետք է լինի նույն թղթապանակում կամ համապատասխան path-ով)
 const winSound = new Audio("sounds/win.mp3");
 const loseSound = new Audio("sounds/lose.mp3");
 const tieSound = new Audio("sounds/tie.mp3");
@@ -14,7 +14,7 @@ let userSymbol = null;
 let aiSymbol = null;
 let gameEnded = false;
 
-// ✅ Հաղթողի ստուգման ֆունկցիա
+//  Հաղթողի ստուգման ֆունկցիա
 function checkWinnerSymbol() {
     const winningCombinations = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8],
@@ -31,7 +31,7 @@ function checkWinnerSymbol() {
     return null;
 }
 
-// ✅ Խաղատախտակի ստեղծում
+//  Խաղատախտակի ստեղծում
 function createBoard() {
     board.innerHTML = "";
     boardState.forEach((cell, index) => {
@@ -43,7 +43,7 @@ function createBoard() {
     });
 }
 
-// ✅ Օգտատիրոջ քայլը
+//  Օգտատիրոջ քայլը
 async function makeMove(index) {
     if (!gameEnded && !boardState[index]) {
         boardState[index] = userSymbol;
@@ -57,7 +57,7 @@ async function makeMove(index) {
             status.textContent = winner === userSymbol ? "You win!" : "RL player wins!";
             gameEnded = true;
 
-            // 🔊 Նվագի համապատասխան ձայն
+            //  Նվագի համապատասխան ձայն
             if (winner === userSymbol) winSound.play();
             else loseSound.play();
 
@@ -65,7 +65,7 @@ async function makeMove(index) {
         } else if (!boardState.includes(null)) {
             status.textContent = "It's a tie!";
             gameEnded = true;
-            tieSound.play(); // 🔊 Ոչ-ոքի ձայն
+            tieSound.play(); //  Ոչ-ոքի ձայն
             return;
         }
 
@@ -73,7 +73,7 @@ async function makeMove(index) {
     }
 }
 
-// ✅ AI խաղացողի քայլը
+//  AI խաղացողի քայլը
 async function makeAIMove() {
     const response = await fetch("http://127.0.0.1:5000/move", {
         method: "POST",
@@ -93,20 +93,20 @@ async function makeAIMove() {
         status.textContent = winnerAfterAI === userSymbol ? "You win!" : "RL player wins!";
         gameEnded = true;
 
-        // 🔊 Նվագի համապատասխան ձայն
+        //  Նվագի համապատասխան ձայն
         if (winnerAfterAI === userSymbol) winSound.play();
         else loseSound.play();
 
     } else if (!boardState.includes(null)) {
         status.textContent = "It's a tie!";
         gameEnded = true;
-        tieSound.play(); // 🔊 Ոչ-ոքի ձայն
+        tieSound.play(); //  Ոչ-ոքի ձայն
     } else {
         status.textContent = "Your turn";
     }
 }
 
-// ✅ Ընտրել սիմվոլը
+//  Ընտրել սիմվոլը
 async function chooseSymbol(symbol) {
     clickSound.play();
     userSymbol = symbol;
@@ -125,7 +125,7 @@ async function chooseSymbol(symbol) {
     await resetGame();
 }
 
-// ✅ Խաղի reset
+//  Խաղի reset
 async function resetGame() {
     boardState = Array(9).fill(null);
     gameEnded = false;
@@ -137,7 +137,7 @@ async function resetGame() {
     }
 }
 
-// ✅ Ռեստարտի կոճակը
+//  Ռեստարտի կոճակը
 restartButton.addEventListener("click", () => {
     clickSound.play(); // 🔊 ռեստարտի ձայն
     board.style.display = "none";

@@ -2,15 +2,6 @@
 
 This project explores the phenomenon of **infinite variance** in **Monte Carlo off-policy evaluation** using **importance sampling**, based on **Chapter 5: Monte Carlo Methods** from *Reinforcement Learning: An Introduction* by **Richard S. Sutton & Andrew G. Barto**.
 
----
-
-## 📖 References
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read online](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
 
 ---
 

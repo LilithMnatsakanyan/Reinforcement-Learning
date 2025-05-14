@@ -2,15 +2,6 @@
 
 This project implements the **SARSA (State-Action-Reward-State-Action)** algorithm to solve the **Windy Gridworld** problem, as presented in **Chapter 6: Temporal-Difference Learning**, specifically **Example 6.5**, from the book **Reinforcement Learning: An Introduction** by **Richard S. Sutton & Andrew G. Barto**.
 
----
-
-## **📖 References**
-This repository is based on:
-
-- **Reinforcement Learning: An Introduction**  
-  **Richard S. Sutton & Andrew G. Barto**  
-  _Second Edition, MIT Press, 2018_  
-  [Read more](http://incompleteideas.net/book/RLbook2020.pdf)
 
 ---
 
@@ -40,7 +31,7 @@ windy-gridworld/
 
 ---
 
-## 🌪️ **Environment Overview**
+## ⚙️ **Environment Overview**
 
 - A **7×10 grid world** with wind affecting vertical movement:
     - The **wind strength** varies per column and pushes the agent **upward**.
@@ -77,6 +68,7 @@ windy-gridworld/
 Visual illustrations of the Windy Gridworld setup and results:
 
 📈 **Reference Visuals:**
+
 <img src="book_images/Example_6_5_graph.PNG" alt="Example 6.5 Graph" width="400"/>
 <img src="book_images/Example_6_5_inset.PNG" alt="Example 6.5 Inset" width="400"/>
 
@@ -86,6 +78,7 @@ Visual illustrations of the Windy Gridworld setup and results:
 Simulated outcomes based on the current implementation:
 
 📈 **Simulation Output:**
+
 <img src="generated_images/example_6_5.png" alt="SARSA Episode Steps" width="400"/>
 
 This shows the **number of time steps per episode** as the agent learns to reach the goal more efficiently over time.

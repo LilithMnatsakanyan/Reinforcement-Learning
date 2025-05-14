@@ -22,45 +22,53 @@ Each project explores a specific RL concept or algorithm, and includes its own `
 ## 📂 **Current Projects**
 
 
-- [blackjack](./blackjack/) – Policy evaluation using Monte Carlo
-- [gambler-problem](./gambler-problem/) – Dynamic programming for optimal betting
+- [tic-tac-toe](./tic-tac-toe/) – Self-play using state-value learning
+- [ten-armed-testbed](./ten-armed-testbed/) – Multi-armed bandits with ε-greedy strategy
 - [gridworld-dp](./gridworld-dp/) – Policy evaluation and improvement using Dynamic Programming
 - [gridworld-mdp](./gridworld-mdp/) – MDP formulation and planning
+- [gambler-problem](./gambler-problem/) – Dynamic programming for optimal betting
+- [blackjack](./blackjack/) – Policy evaluation using Monte Carlo
 - [infinite-variance](./infinite-variance/) – Off-policy learning and variance analysis
 - [random-walk](./random-walk/) – TD(0) vs Monte Carlo prediction
-- [ten-armed-testbed](./ten-armed-testbed/) – Multi-armed bandits with ε-greedy strategy
-- [tic-tac-toe](./tic-tac-toe/) – Self-play using state-value learning
 - [windy-gridworld](./windy-gridworld/) – SARSA learning in stochastic grid environment
+- [cliff-walking](./cliff-walking/) – Episodic control with ε-greedy and SARSA/Q-learning
 
 Each project may contain **notebooks**, **scripts**, and **configuration files** specific to its implementation.
 
 ---
 
-## **🚀 Getting Started**
-
-To explore any of the RL projects:
+## **🚀 Getting Started** 
+_(Example on tic-tac-toe project)_
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/LilithMnatsakanyan/Reinforcement-Learning.git  
-cd Reinforcement-Learning  
+git clone https://github.com/LilithMnatsakanyan/tic-tac-toe.git  
+cd tic-tac-toe
 ```
 
-### 2️⃣ **Navigate to a Specific Project**
-```sh
-cd project-1  
-```
-
-### 3️⃣ **Install Dependencies**
-Each project has its own `requirements.txt` file. Install the necessary dependencies:
+### 2️⃣ **Install Dependencies**
 ```sh
 pip install -r requirements.txt  
 ```
 
-### 4️⃣ **Run the Project**
-Depending on the project structure, run the main script:
+### 3️⃣ **Train the RL Agent**
 ```sh
-python main.py  # Or train.py depending on the project  
+python src/tic-tac-toe.py  
+```
+
+### 4️⃣ **Play the Game**
+
+You can play Tic Tac Toe in two ways:
+
+✅ **Web-based interface** (Recommended):
+```sh
+python app.py  
+```
+Then open `index.html` in your browser to play against the AI.
+
+✅ **Console-based interface** (Using keyboard letters for a 3×3 grid):
+```sh
+python src/tic-tac-toe.py  
 ```
 
 ---
@@ -68,17 +76,23 @@ python main.py  # Or train.py depending on the project
 ## 📌 **Key Topics Covered**
 
 ### 🎯 Foundational Algorithms
-- Monte Carlo Prediction and Control
-- Temporal-Difference Learning (TD(0), SARSA)
+- Multi-Armed Bandits (Action-Value Methods)
 - Dynamic Programming (Policy Evaluation & Improvement)
-- Off-policy Learning and Variance
+- Monte Carlo Prediction and Control
+- Temporal-Difference Learning (TD(0), SARSA, Q-Learning)
+- Off-policy Learning and Variance (Importance Sampling)
 
 ### 🧪 Experimental Environments
-- Gridworld
-- Blackjack
-- Gambler's Problem
-- Multi-Armed Bandits
 - Tic-Tac-Toe
+- Multi-Armed Bandits (Ten-Armed Testbed)
+- Gridworld (DP and MDP Variants)
+- Gambler's Problem
+- Blackjack
+- Infinite Variance
+- Random Walk
+- Windy Gridworld
+- Cliff Walking
+
 
 ---
 
@@ -88,6 +102,8 @@ This repository primarily uses:
 - **Python 3.x**
 - **NumPy, Pandas** (Data handling)
 - **Matplotlib, Seaborn** (Visualization)
+- **tqdm** (Progress bars for episode tracking)
+
 
 ---
 
@@ -97,15 +113,6 @@ This repository primarily uses:
 > Richard S. Sutton & Andrew G. Barto  
 > _Second Edition, 2018 – MIT Press_  
 > [Read online](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
-
----
-
-## 🌱 **Future Plans**
-
-- 🔁 Implement Double Q-Learning and Expected SARSA
-- 🤖 Add Deep RL (e.g., DQN, Policy Gradient)
-- 🧩 Build custom environments (e.g., maze navigation)
-- 🧠 Explore Actor-Critic and Advantage methods
 
 ---
 
