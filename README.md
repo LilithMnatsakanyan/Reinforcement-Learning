@@ -32,6 +32,7 @@ Each project explores a specific RL concept or algorithm, and includes its own `
 - [random-walk](./random-walk/) – TD(0) vs Monte Carlo prediction
 - [windy-gridworld](./windy-gridworld/) – SARSA learning in stochastic grid environment
 - [cliff-walking](./cliff-walking/) – Episodic control with ε-greedy and SARSA/Q-learning
+- [maximization-bias](./maximization-bias/) – Demonstrating maximization bias with Q-learning vs Double Q-learning
 
 Each project may contain **notebooks**, **scripts**, and **configuration files** specific to its implementation.
 
@@ -81,6 +82,7 @@ python src/tic-tac-toe.py
 - Monte Carlo Prediction and Control
 - Temporal-Difference Learning (TD(0), SARSA, Q-Learning)
 - Off-policy Learning and Variance (Importance Sampling)
+- Double Q-Learning 
 
 ### 🧪 Experimental Environments
 - Tic-Tac-Toe
@@ -92,7 +94,7 @@ python src/tic-tac-toe.py
 - Random Walk
 - Windy Gridworld
 - Cliff Walking
-
+- Maximization Bias
 
 ---
 
