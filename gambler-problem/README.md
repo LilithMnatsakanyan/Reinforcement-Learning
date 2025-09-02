@@ -8,9 +8,6 @@ This project implements solutions to the **Gambler’s Problem**, based on **Cha
 ## **📂 Project Structure**
 ```
 gambler-problem/
-│── src/                       # Core implementation
-│   ├── __init__.py            
-│   ├── gambler.py             # Gambler's problem DP logic
 │── notebooks/                 # Jupyter Notebooks for experimentation
 │   ├── gambler_problem.ipynb  
 │── book_images/               # Reference images from the book

@@ -18,6 +18,9 @@ def train(epochs: int, print_every_n: int = 500):
 
     # region Body
 
+    win_rates_player1 = []  # հավելում
+    win_rates_player2 = []  # հավելում
+
     # Create 2 RL players with ε = 0.01 exploring probability
     player1 = RLPlayer(all_states, epsilon=0.01)
     player2 = RLPlayer(all_states, epsilon=0.01)
@@ -41,7 +44,16 @@ def train(epochs: int, print_every_n: int = 500):
 
         # print the intermediate win rates, if needed
         if (epoch + 1) % print_every_n == 0:
-            print(f"Epoch {epoch + 1}, Player1 Win Rate: {player1_wins / (epoch + 1):.2f}, Player2 Win Rate: {player2_wins / (epoch + 1):.2f}")
+            win_rate_1 = player1_wins / print_every_n  # հավելում
+            win_rate_2 = player2_wins / print_every_n  # հավելում
+
+            win_rates_player1.append(win_rate_1)  # հավելում
+            win_rates_player2.append(win_rate_2)  # հավելում
+
+            print(f"Epoch {epoch + 1}, Player1 Win Rate: {win_rate_1:.2f}, Player2 Win Rate: {win_rate_2:.2f}")  # հավելում
+
+            player1_wins = 0  # հավելում
+            player2_wins = 0  # հավելում
 
         # update value estimates of both players
         player1.update_state_value_estimates()
@@ -54,7 +66,22 @@ def train(epochs: int, print_every_n: int = 500):
     player1.save_policy()
     player2.save_policy()
 
+    # հավելում
+    import matplotlib.pyplot as plt
+    import matplotlib.ticker as mtick
+
+    plt.plot(win_rates_player1, label="Player1", color='blue')  # հավելում
+    plt.plot(win_rates_player2, label="Player2", color='red')  # հավելում
+    plt.xlabel("Էպոխների ընթացք (epochs)")  # հավելում
+    plt.ylabel("Հաղթանակների միջին տոկոս")  # հավելում
+    plt.title("TD Learning գործակալների հաղթանակների փոփոխությունը")  # հավելում
+    plt.gca().yaxis.set_major_formatter(mtick.PercentFormatter(1.0))  # հավելում
+    plt.grid(True)  # հավելում
+    plt.legend()  # հավելում
+    plt.show()  # հավելում
+
     # endregion Body
+
 
 
 def compete(turns):

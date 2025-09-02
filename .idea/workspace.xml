@@ -4,28 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Added README files for some projects  &#10;- Updated main README to reflect recent structure changes  &#10;- Minor tweaks and formatting improvements across files">
-      <change afterPath="$PROJECT_DIR$/cliff-walking/__init__.py" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes">
+      <change afterPath="$PROJECT_DIR$/maximization-bias/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tic-tac-toe/policy_second.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gambler-problem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gambler-problem/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridworld-dp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gridworld-dp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridworld-mdp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gridworld-mdp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-variance/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-variance/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/random-walk/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ten-armed-testbed/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ten-armed-testbed/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/sounds/click.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/click.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/sounds/lose.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/lose.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/sounds/tie.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/tie.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/sounds/win.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/win.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windy-gridworld/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/windy-gridworld/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gambler-problem/generated_images/figure_4_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gambler-problem/generated_images/figure_4_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gambler-problem/notebooks/gamblers_problem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/gambler-problem/notebooks/gamblers_problem.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/.idea/tic-tac-toe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/.idea/tic-tac-toe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/judge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/policy_first.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/policy_first.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/policy_second.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/policy_first.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/policy_first.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/policy_second.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/click.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/sounds/click.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/lose.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/sounds/lose.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/tie.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/sounds/tie.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/sounds/win.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/sounds/win.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/tic_tac_toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/tic_tac_toe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,34 +81,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/tic-tac-toe/src/tic-tac-toe-web&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.bandit.executor": "Run",
+    "Python.black_jack.executor": "Run",
+    "Python.cliff_walking.executor": "Run",
+    "Python.grid_world.executor": "Run",
+    "Python.infinite_variance.executor": "Run",
+    "Python.maximization_bias.executor": "Run",
+    "Python.random_walk.executor": "Run",
+    "Python.tic_tac_toe.executor": "Run",
+    "Python.windy_grid_world.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
@@ -113,9 +119,9 @@
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\cliff-walking" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\src\sounds" />
     </key>
@@ -184,7 +190,27 @@
       <workItem from="1747040272870" duration="284000" />
       <workItem from="1747040568248" duration="4137000" />
       <workItem from="1747154198865" duration="9335000" />
-      <workItem from="1747250796185" duration="2392000" />
+      <workItem from="1747250796185" duration="3416000" />
+      <workItem from="1747331193470" duration="12000" />
+      <workItem from="1747380832634" duration="2863000" />
+      <workItem from="1747384657244" duration="8000" />
+      <workItem from="1747498447867" duration="722000" />
+      <workItem from="1747501266261" duration="5241000" />
+      <workItem from="1747567134577" duration="9086000" />
+      <workItem from="1747731910440" duration="4979000" />
+      <workItem from="1747854922706" duration="104000" />
+      <workItem from="1748077104030" duration="183000" />
+      <workItem from="1748077504026" duration="399000" />
+      <workItem from="1748191378678" duration="39000" />
+      <workItem from="1748195899457" duration="1208000" />
+      <workItem from="1748359971957" duration="199000" />
+      <workItem from="1748441150171" duration="1951000" />
+      <workItem from="1748722634544" duration="5209000" />
+      <workItem from="1748761566130" duration="915000" />
+      <workItem from="1748805915277" duration="1929000" />
+      <workItem from="1748885129326" duration="1533000" />
+      <workItem from="1748937826311" duration="431000" />
+      <workItem from="1756826386098" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -402,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746911713015</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes">
+      <option name="closed" value="true" />
+      <created>1747253247702</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1747253247702</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +452,8 @@
     <MESSAGE value="- Random Walk added" />
     <MESSAGE value="- Some changes" />
     <MESSAGE value="- Added README files for some projects  &#10;- Updated main README to reflect recent structure changes  &#10;- Minor tweaks and formatting improvements across files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added README files for some projects  &#10;- Updated main README to reflect recent structure changes  &#10;- Minor tweaks and formatting improvements across files" />
+    <MESSAGE value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,12 +469,13 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$grid_world.coverage" NAME="grid_world Coverage Results" MODIFIED="1743414650113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gridworld-dp/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$windy_grid_world.coverage" NAME="windy_grid_world Coverage Results" MODIFIED="1746908508768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/windy-gridworld/src" />
-    <SUITE FILE_PATH="coverage/Reinforcement_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1747251667537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1748937848186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tic-tac-toe/src/tic-tac-toe-web" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$infinite_variance.coverage" NAME="infinite_variance Coverage Results" MODIFIED="1746900573114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/infinite-variance/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$bandit.coverage" NAME="bandit Coverage Results" MODIFIED="1741622953722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ten-Armed-Testbed/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$cliff_walking.coverage" NAME="cliff_walking Coverage Results" MODIFIED="1747042713025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cliff-walking/src" />
-    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1746122500772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic-Tac-Toe/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1747577797756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tic-tac-toe/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1746906099430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk/src" />
+    <SUITE FILE_PATH="coverage/Reinforcement_Learning$maximization_bias.coverage" NAME="maximization_bias Coverage Results" MODIFIED="1747736715815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maximization-bias/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$black_jack.coverage" NAME="black_jack Coverage Results" MODIFIED="1745772620876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack/src" />
   </component>
 </project>
