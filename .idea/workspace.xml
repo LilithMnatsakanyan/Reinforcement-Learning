@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mazes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random-walk-ntd/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,35 +59,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.bandit.executor": "Run",
-    "Python.black_jack.executor": "Run",
-    "Python.cliff_walking.executor": "Run",
-    "Python.grid_world.executor": "Run",
-    "Python.infinite_variance.executor": "Run",
-    "Python.maximization_bias.executor": "Run",
-    "Python.random_walk.executor": "Run",
-    "Python.tic_tac_toe.executor": "Run",
-    "Python.windy_grid_world.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximization_bias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
@@ -185,7 +188,10 @@
       <workItem from="1748805915277" duration="1929000" />
       <workItem from="1748885129326" duration="1533000" />
       <workItem from="1748937826311" duration="431000" />
-      <workItem from="1756826386098" duration="2619000" />
+      <workItem from="1756826386098" duration="2802000" />
+      <workItem from="1756883261952" duration="3817000" />
+      <workItem from="1757500189239" duration="4190000" />
+      <workItem from="1757789235596" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -419,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756828702953</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes">
+      <option name="closed" value="true" />
+      <created>1756829276516</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1756829276516</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
