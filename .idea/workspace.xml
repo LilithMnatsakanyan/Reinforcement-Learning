@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes">
-      <change afterPath="$PROJECT_DIR$/mazes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random-walk-ntd/__init__.py" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Added README file">
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazes/notebooks/prioritized_sweeping.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazes/src/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazes/src/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -78,7 +91,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/updates-comparison/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,18 +103,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\updates-comparison\src" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\windy-gridworld" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\infinite-variance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\cliff-walking" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\Tic-Tac-Toe\src\sounds" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -191,7 +204,10 @@
       <workItem from="1756826386098" duration="2802000" />
       <workItem from="1756883261952" duration="3817000" />
       <workItem from="1757500189239" duration="4190000" />
-      <workItem from="1757789235596" duration="962000" />
+      <workItem from="1757789235596" duration="1209000" />
+      <workItem from="1758045274105" duration="15000" />
+      <workItem from="1758652967359" duration="4905000" />
+      <workItem from="1758659988367" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -433,7 +449,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756829276516</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="- Added README file">
+      <option name="closed" value="true" />
+      <created>1757790308390</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1757790308390</updated>
+    </task>
+    <task id="LOCAL-00032" summary="- Added README file">
+      <option name="closed" value="true" />
+      <created>1757790316272</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1757790316272</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +482,8 @@
     <MESSAGE value="- Some changes" />
     <MESSAGE value="- Added README files for some projects  &#10;- Updated main README to reflect recent structure changes  &#10;- Minor tweaks and formatting improvements across files" />
     <MESSAGE value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
+    <MESSAGE value="- Added README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added README file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
