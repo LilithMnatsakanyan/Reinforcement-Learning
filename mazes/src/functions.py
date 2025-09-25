@@ -219,7 +219,6 @@ def prioritized_sweeping(action_value_estimates, model, maze, dyna_params):
             # update the state action value for the sample
             delta = reward_ + dyna_params.discount * np.max(action_value_estimates[next_state_[0], next_state_[1], :]) - \
                     action_value_estimates[state_[0], state_[1], action_]
-            action_value_estimates[state_[0], state_[1], action_] += dyna_params.step_size * delta
 
             # update action-value estimates
             action_value_estimates[state_[0], state_[1], action_] += dyna_params.step_size * delta
