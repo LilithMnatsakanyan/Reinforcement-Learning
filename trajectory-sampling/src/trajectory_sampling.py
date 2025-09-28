@@ -182,46 +182,47 @@ def uniform_sampling(task, eval_interval):
     # region Body
 
     # Create an empty list for performance
-
+    performance = []
 
     # Create a matrix for state-action value estimates filled with 0s
-
+    estimates = np.zeros((task.n_states, len(actions)))
 
     # Pre-compute evaluation steps
-
+    eval_steps = np.arange(0, max_steps,eval_interval, dtype=int)
+    eval_idx = 0
 
     # For every step
-
+    for step in tqdm(range(max_steps), desc="Uniform Sampling"):
         # get the current state
-
+        state = (step // len(actions)) % task.n_states
 
         # get the action
-
+        action = step % len(actions)
 
         # get the next states
-
+        next_states = task.transition[state, action]
 
         # get the rewards
-
+        rewards = task.reward[state, action]
 
         # get the next value estimates
-
+        next_value_estimates = np.max(estimates[next_states], axis=1)
 
         # update estimates
-
+        estimates[state, action] = (1 - termination_probability) * np.mean(rewards + next_value_estimates)
 
         # check if it's time to evaluate
-
+        if eval_idx < len(eval_steps) and step == eval_steps[eval_idx]:
             # get the average return
-
+            average_return = evaluate_policy(estimates, task)
 
             # append the step and average return to the performance list
-
+            performance.append([step, average_return])
 
             # increment the evaluation index
+            eval_idx += 1
 
-
-
+    return list(zip(*performance))
 
     # endregion Body
 
@@ -239,63 +240,64 @@ def on_policy_sampling(task, eval_interval):
     # region Body
 
     # Create an empty list for performance
-
+    performance = []
 
     # Create a matrix for state-action value estimates filled with 0s
-
+    estimates = np.zeros((task.n_states, len(actions)))
 
     # Initialize state counter to 0
-
+    state = 0
 
     # Pre-compute evaluation steps
-
+    eval_steps = np.arange(0, max_steps, eval_interval, dtype=int)
+    eval_idx = 0
 
     # Pre-compute ε-greedy decisions
-
+    epsilon_decisions = np.random.rand(max_steps) < exploration_probability
 
     # Get random actions
-
+    random_actions = np.random.choice(actions, max_steps)
 
     # For every step
-
+    for step in tqdm(range(max_steps), desc="On-Policy Sampling"):
         # ε-greedy action selection
-
+        if epsilon_decisions[step]:
             # choose random action
-
-
+            action = random_actions[step]
+        else:
             # choose action with maximum estimated value
-
+            action = argmax(estimates[state])
 
         # get the next state
-
+        next_state, _ = task.step(state, action)
 
         # get the next states
-
+        next_states = task.transition[state, action]
 
         # get the rewards
-
+        rewards = task.reward[state, action]
 
         # get the next value estimates
-
+        next_value_estimates = np.max(estimates[next_states], axis=1)
 
         # update estimates
-
+        estimates[state, action] = (1 - termination_probability) * np.mean(rewards + next_value_estimates)
 
         # reset to start state if terminal
-
+        state = 0 if next_state == task.n_states else next_state
 
         # check if it's time to evaluate
-
+        if eval_idx < len(eval_steps) and step == eval_steps[eval_idx]:
             # get the average return
-
+            average_return = evaluate_policy(estimates, task)
 
             # append the step and average return to the performance list
-
+            performance.append([step, average_return])
 
             # increment the evaluation index
+            eval_idx += 1
 
-
-
+    return list(zip(*performance))
 
     # endregion Body
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Added README file">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Added some changes">
+      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes/generated_images/example_8_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/mazes/generated_images/example_8_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes/notebooks/prioritized_sweeping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mazes/notebooks/prioritized_sweeping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes/src/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazes/src/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory-sampling/notebooks/trajectory_sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trajectory-sampling/notebooks/trajectory_sampling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory-sampling/src/trajectory_sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/trajectory-sampling/src/trajectory_sampling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,42 +72,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maximization_bias.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/mazes/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.bandit.executor": "Run",
+    "Python.black_jack.executor": "Run",
+    "Python.cliff_walking.executor": "Run",
+    "Python.grid_world.executor": "Run",
+    "Python.infinite_variance.executor": "Run",
+    "Python.maximization_bias.executor": "Run",
+    "Python.random_walk.executor": "Run",
+    "Python.tic_tac_toe.executor": "Run",
+    "Python.windy_grid_world.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/trajectory-sampling/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\trajectory-sampling\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\updates-comparison\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
@@ -208,7 +208,8 @@
       <workItem from="1758045274105" duration="15000" />
       <workItem from="1758652967359" duration="4905000" />
       <workItem from="1758659988367" duration="309000" />
-      <workItem from="1758820518530" duration="335000" />
+      <workItem from="1758820518530" duration="4950000" />
+      <workItem from="1759088319842" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -474,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758660290450</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="- Added some changes">
+      <option name="closed" value="true" />
+      <created>1758821063933</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758821063933</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +501,8 @@
     <MESSAGE value="- Added README files for some projects  &#10;- Updated main README to reflect recent structure changes  &#10;- Minor tweaks and formatting improvements across files" />
     <MESSAGE value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
     <MESSAGE value="- Added README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added README file" />
+    <MESSAGE value="- Added some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
