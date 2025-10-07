@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- Added some changes">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- new commits">
+      <change afterPath="$PROJECT_DIR$/random-walk-fa/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trajectory-sampling/notebooks/trajectory_sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trajectory-sampling/notebooks/trajectory_sampling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trajectory-sampling/src/trajectory_sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/trajectory-sampling/src/trajectory_sampling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/trajectory-sampling/src",
+    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/random-walk-fa/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,11 +102,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\trajectory-sampling\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\updates-comparison\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
@@ -209,7 +208,9 @@
       <workItem from="1758652967359" duration="4905000" />
       <workItem from="1758659988367" duration="309000" />
       <workItem from="1758820518530" duration="4950000" />
-      <workItem from="1759088319842" duration="727000" />
+      <workItem from="1759088319842" duration="770000" />
+      <workItem from="1759175446557" duration="5000" />
+      <workItem from="1759784591646" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -483,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758821063933</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="- new commits">
+      <option name="closed" value="true" />
+      <created>1759089084476</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1759089084476</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +511,8 @@
     <MESSAGE value="- Edited README files for some projects  &#10;- Updated main README to reflect recent structure changes" />
     <MESSAGE value="- Added README file" />
     <MESSAGE value="- Added some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added some changes" />
+    <MESSAGE value="- new commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="- new commits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
