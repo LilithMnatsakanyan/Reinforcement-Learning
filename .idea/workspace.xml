@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- new commits">
-      <change afterPath="$PROJECT_DIR$/random-walk-fa/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliff-walking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld-dp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld-mdp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infinite-variance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximization-bias/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Example_6_2_top.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_10.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/generated_images/figure_9_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/generated_images/figure_9_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/bootstrapping.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/polynomials_vs_fourier.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/state_aggregation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/tile_coding.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-fa/src/random_walk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk-ntd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random-walk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory-sampling/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updates-comparison/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windy-gridworld/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +82,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/LilithMnatsakanyan/Reinforcement-Learning&quot;,
-    &quot;accountId&quot;: &quot;035fe182-6087-41d2-93af-19da97f3566d&quot;
+    &quot;accountId&quot;: &quot;0aa37401-d7e3-4877-8582-cef818ee8e95&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -71,35 +96,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.bandit.executor": "Run",
-    "Python.black_jack.executor": "Run",
-    "Python.cliff_walking.executor": "Run",
-    "Python.grid_world.executor": "Run",
-    "Python.infinite_variance.executor": "Run",
-    "Python.maximization_bias.executor": "Run",
-    "Python.random_walk.executor": "Run",
-    "Python.tic_tac_toe.executor": "Run",
-    "Python.windy_grid_world.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/random-walk-fa/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximization_bias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/random-walk-fa/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\src" />
@@ -110,10 +135,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\cliff-walking" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\tic-tac-toe\src\tic-tac-toe-web" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\blackjack" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -211,6 +236,10 @@
       <workItem from="1759088319842" duration="770000" />
       <workItem from="1759175446557" duration="5000" />
       <workItem from="1759784591646" duration="643000" />
+      <workItem from="1759870134112" duration="43000" />
+      <workItem from="1760080282302" duration="100000" />
+      <workItem from="1760183917792" duration="15317000" />
+      <workItem from="1760211017423" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -492,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759089084476</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="- new commits">
+      <option name="closed" value="true" />
+      <created>1759870166642</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1759870166642</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
