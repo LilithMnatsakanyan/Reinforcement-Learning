@@ -4,35 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- new commits">
-      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new commits, added new projects, added new readme files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliff-walking/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridworld-dp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridworld-mdp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-variance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximization-bias/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Example_6_2_top.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_10.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/book_images/Figure_9_5.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/generated_images/figure_9_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/generated_images/figure_9_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/bootstrapping.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/polynomials_vs_fourier.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/state_aggregation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/notebooks/tile_coding.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-fa/src/random_walk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk-ntd/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random-walk/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trajectory-sampling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/updates-comparison/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/windy-gridworld/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +212,8 @@
       <workItem from="1759870134112" duration="43000" />
       <workItem from="1760080282302" duration="100000" />
       <workItem from="1760183917792" duration="15317000" />
-      <workItem from="1760211017423" duration="2803000" />
+      <workItem from="1760211017423" duration="2961000" />
+      <workItem from="1760383581890" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -529,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759870166642</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="- added new commits, added new projects, added new readme files">
+      <option name="closed" value="true" />
+      <created>1760214032571</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1760214032571</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +531,8 @@
     <MESSAGE value="- Added README file" />
     <MESSAGE value="- Added some changes" />
     <MESSAGE value="- new commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="- new commits" />
+    <MESSAGE value="- added new commits, added new projects, added new readme files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new commits, added new projects, added new readme files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
