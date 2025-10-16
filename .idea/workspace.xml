@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new commits, added new projects, added new readme files">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new readme and a new ipynb file with codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +214,12 @@
       <workItem from="1760080282302" duration="100000" />
       <workItem from="1760183917792" duration="15317000" />
       <workItem from="1760211017423" duration="2961000" />
-      <workItem from="1760383581890" duration="289000" />
+      <workItem from="1760383581890" duration="331000" />
+      <workItem from="1760434126348" duration="112000" />
+      <workItem from="1760557139230" duration="1312000" />
+      <workItem from="1760559729321" duration="1405000" />
+      <workItem from="1760647185576" duration="111000" />
+      <workItem from="1760648949787" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -511,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760214032571</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="- added new readme">
+      <option name="closed" value="true" />
+      <created>1760383901840</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1760383901840</updated>
+    </task>
+    <task id="LOCAL-00039" summary="- added new readme and a new ipynb file with codes">
+      <option name="closed" value="true" />
+      <created>1760557941886</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1760557941886</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +554,9 @@
     <MESSAGE value="- Added some changes" />
     <MESSAGE value="- new commits" />
     <MESSAGE value="- added new commits, added new projects, added new readme files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added new commits, added new projects, added new readme files" />
+    <MESSAGE value="- added new readme" />
+    <MESSAGE value="- added new readme and a new ipynb file with codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new readme and a new ipynb file with codes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

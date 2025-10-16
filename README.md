@@ -1,40 +1,55 @@
 # **Reinforcement Learning Projects**
 
-This repository contains a collection of hands-on **Reinforcement Learning (RL)** projects, each focused on implementing and analyzing different algorithms and environments from the textbook **Reinforcement Learning: An Introduction** by Sutton & Barto.
+This repository contains a collection of hands-on **Reinforcement Learning (RL)** projects, each focused on implementing and analyzing different algorithms and environments from the textbook **_Reinforcement Learning: An Introduction_** by **Richard S. Sutton** and **Andrew G. Barto**.
 
 The goal of this repository is to develop a deeper understanding of:
 - ✅ Agent learning and policy optimization
 - ✅ Environment dynamics and reward mechanisms
-- ✅ Exploration-exploitation tradeoffs
+- ✅ Exploration–exploitation tradeoffs
 - ✅ On-policy vs. off-policy learning
 
 ---
 
 ## 🧠 **Projects Overview**
 
-Each project explores a specific RL concept or algorithm, and includes its own `README.md` with:
+Each project explores a specific RL concept or algorithm and includes its own `README.md` with:
 - **Objectives** – What the project aims to demonstrate
 - **Methodology** – Core algorithms and environment setup
-- **Key Results** – Visualizations, learning curves, and observations
+- **Key Results** – Visualizations, learning curves, and interpretations
 
 ---
 
 ## 📂 **Current Projects**
 
-
+### 🧩 **Foundations and Value-Based Learning**
 - [tic-tac-toe](./tic-tac-toe/) – Self-play using state-value learning
 - [ten-armed-testbed](./ten-armed-testbed/) – Multi-armed bandits with ε-greedy strategy
+
+### 🧮 **Dynamic Programming and Model-Based Control**
 - [gridworld-dp](./gridworld-dp/) – Policy evaluation and improvement using Dynamic Programming
 - [gridworld-mdp](./gridworld-mdp/) – MDP formulation and planning
 - [gambler-problem](./gambler-problem/) – Dynamic programming for optimal betting
+
+### 🎲 **Monte Carlo and Temporal-Difference Methods**
 - [blackjack](./blackjack/) – Policy evaluation using Monte Carlo
-- [infinite-variance](./infinite-variance/) – Off-policy learning and variance analysis
 - [random-walk](./random-walk/) – TD(0) vs Monte Carlo prediction
-- [windy-gridworld](./windy-gridworld/) – SARSA learning in stochastic grid environment
+- [random-walk-ntd](./random-walk-ntd/) – n-step TD learning and return estimation
+
+### ⚙️ **Control and Exploration**
+- [windy-gridworld](./windy-gridworld/) – SARSA learning in a stochastic grid environment
 - [cliff-walking](./cliff-walking/) – Episodic control with ε-greedy and SARSA/Q-learning
 - [maximization-bias](./maximization-bias/) – Demonstrating maximization bias with Q-learning vs Double Q-learning
 
-Each project may contain **notebooks**, **scripts**, and **configuration files** specific to its implementation.
+### 🧠 **Planning and Model-Based Reinforcement Learning**
+- [infinite-variance](./infinite-variance/) – Off-policy learning and variance analysis
+- [mazes](./mazes/) – Dyna-Q, Dyna-Q+, and Prioritized Sweeping (planning and learning integration)
+- [updates-comparison](./updates-comparison/) – Expected vs sample updates in planning
+- [trajectory-sampling](./trajectory-sampling/) – Uniform vs on-policy update distributions
+
+### 🔢 **Function Approximation and Generalization**
+- [random-walk-fa](./random-walk-fa/) – Function approximation methods (polynomial, Fourier, tile coding)
+- [coarse-coding](./coarse-coding/) – Coarse coding and generalization in value function approximation
+
 
 ---
 
@@ -76,24 +91,31 @@ python src/tic-tac-toe.py
 
 ## 📌 **Key Topics Covered**
 
-### 🎯 Foundational Algorithms
+### 🎯 **Foundational Algorithms**
 - Multi-Armed Bandits (Action-Value Methods)
 - Dynamic Programming (Policy Evaluation & Improvement)
 - Monte Carlo Prediction and Control
-- Temporal-Difference Learning (TD(0), SARSA, Q-Learning)
+- Temporal-Difference Learning (TD(0), n-step TD, SARSA, Q-Learning)
+- Planning Methods (Dyna-Q, Prioritized Sweeping)
 - Off-policy Learning and Variance (Importance Sampling)
-- Double Q-Learning 
+- Function Approximation (Linear, Fourier, Tile Coding, Coarse Coding)
+- Double Q-Learning
 
-### 🧪 Experimental Environments
+### 🧪 **Experimental Environments**
 - Tic-Tac-Toe
 - Multi-Armed Bandits (Ten-Armed Testbed)
 - Gridworld (DP and MDP Variants)
-- Gambler's Problem
+- Gambler’s Problem
 - Blackjack
-- Infinite Variance
-- Random Walk
+- Random Walk (1D and n-step Variants)
 - Windy Gridworld
 - Cliff Walking
+- Infinite Variance
+- Mazes (Dyna-Q and Prioritized Sweeping)
+- Updates Comparison
+- Trajectory Sampling
+- Random Walk with Function Approximation
+- Square Wave (Coarse Coding / Feature Width Analysis)
 - Maximization Bias
 
 ---
