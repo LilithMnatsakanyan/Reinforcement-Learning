@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- changed the global readme, including new projects in it">
-      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project and readme">
+      <change beforePath="$PROJECT_DIR$/mountain-car/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mountain-car/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,7 @@
       <workItem from="1760989857038" duration="118000" />
       <workItem from="1760990005179" duration="324000" />
       <workItem from="1761153627632" duration="11000" />
-      <workItem from="1762109028870" duration="2638000" />
+      <workItem from="1762109028870" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -552,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760649958864</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="- added new project and readme">
+      <option name="closed" value="true" />
+      <created>1762111758797</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1762111758797</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +583,8 @@
     <MESSAGE value="- added new readme" />
     <MESSAGE value="- added new readme and a new ipynb file with codes" />
     <MESSAGE value="- changed the global readme, including new projects in it" />
-    <option name="LAST_COMMIT_MESSAGE" value="- changed the global readme, including new projects in it" />
+    <MESSAGE value="- added new project and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new project and readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

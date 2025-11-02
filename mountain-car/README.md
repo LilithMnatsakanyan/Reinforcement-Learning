@@ -1,4 +1,4 @@
-# **Reinforcement Learning: Mountain Car (Semi-gradient n-step Sarsa with Tile Coding)**
+# **Reinforcement Learning: Mountain Car**
 
 This project implements **Semi-gradient n-step Sarsa** with **Tile Coding** to solve the continuous-state **Mountain Car** control problem.  
 It reproduces the experiments from **Chapter 10 — Function Approximation** of *Reinforcement Learning: An Introduction* by **Richard S. Sutton & Andrew G. Barto**.
@@ -8,16 +8,16 @@ It reproduces the experiments from **Chapter 10 — Function Approximation** of 
 ```
 mountain-car/
 ├── book_images/ # Reference plots from the Sutton & Barto book
-│ ├── Figure_10.1.PNG
-│ ├── Figure_10.1_upper_left.PNG
-│ ├── Figure_10.2.PNG
-│ ├── Figure_10.3.PNG
-│ └── Figure_10.4.PNG
+│ ├── Figure_10_1.PNG
+│ ├── Figure_10_1_upper_left.PNG
+│ ├── Figure_10-2.PNG
+│ ├── Figure_10_3.PNG
+│ └── Figure_10_4.PNG
 ├── generated_images/ # Plots produced from simulation
-│ ├── figure_10.1.png
-│ ├── figure_10.2.png
-│ ├── figure_10.3.png
-│ └── figure_10.4.png
+│ ├── figure_10_1.png
+│ ├── figure_10_2.png
+│ ├── figure_10_3.png
+│ └── figure_10_4.png
 ├── notebooks/
 │ └── mountain_car.ipynb # Experiment notebook
 ├── src/
@@ -89,14 +89,30 @@ Where:
 
 ## 📊 Results
 
-| Book Figure | Reproduced Plot | Interpretation |
-|---|---|---|
-| **Figure 10.1** | `figure_10.1.png` | Cost-to-go visualization after training |
-| **Figure 10.2** | `figure_10.2.png` | Effect of varying number of tilings |
-| **Figure 10.3** | `figure_10.3.png` | Learning curves for different `n` values |
-| **Figure 10.4** | `figure_10.4.png` | Performance vs. step size comparison |
+| Book Figure | Reproduced Plot   | Interpretation |
+|---|-------------------|---|
+| **Figure 10.1** | `figure_10_1.png` | Cost-to-go visualization after training |
+| **Figure 10.2** | `figure_10_2.png` | Effect of varying number of tilings |
+| **Figure 10.3** | `figure_10_3.png` | Learning curves for different `n` values |
+| **Figure 10.4** | `figure_10_4.png` | Performance vs. step size comparison |
 
 These results match the **qualitative trends** described in Sutton & Barto.
+
+---
+
+## 🖼️ Generated Visualizations
+
+### Figure 10_1 — Cost-to-Go after Training
+<img src="generated_images/figure_10_1.png" alt="Cost-to-Go Surface" width="600"/>
+
+### Figure 10_2 — Effect of Varying Number of Tilings
+<img src="generated_images/figure_10_2.png" alt="Tilings Effect" width="600"/>
+
+### Figure 10_3 — Learning Curves for Different n
+<img src="generated_images/figure_10_3.png" alt="Learning Curves" width="600"/>
+
+### Figure 10_4 — Performance vs. Step Size
+<img src="generated_images/figure_10_4.png" alt="Performance Comparison" width="600"/>
 
 ---
 
@@ -116,7 +132,3 @@ It reproduces the canonical Mountain Car experiment from **Chapter 10** of Sutto
 - Eligibility traces (λ-return)
 - Actor–critic variants
 - Continuous-action policy gradients
-
----
-
-
