@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new readme and a new ipynb file with codes">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- changed the global readme, including new projects in it">
+      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,42 +70,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maximization_bias.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/random-walk-fa/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.bandit.executor": "Run",
+    "Python.black_jack.executor": "Run",
+    "Python.cliff_walking.executor": "Run",
+    "Python.grid_world.executor": "Run",
+    "Python.infinite_variance.executor": "Run",
+    "Python.maximization_bias.executor": "Run",
+    "Python.random_walk.executor": "Run",
+    "Python.tic_tac_toe.executor": "Run",
+    "Python.windy_grid_world.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/mountain-car/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mountain-car\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\trajectory-sampling\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\updates-comparison\src" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
@@ -219,7 +219,18 @@
       <workItem from="1760557139230" duration="1312000" />
       <workItem from="1760559729321" duration="1405000" />
       <workItem from="1760647185576" duration="111000" />
-      <workItem from="1760648949787" duration="926000" />
+      <workItem from="1760648949787" duration="1036000" />
+      <workItem from="1760796842147" duration="2991000" />
+      <workItem from="1760800671858" duration="831000" />
+      <workItem from="1760806318983" duration="912000" />
+      <workItem from="1760876498270" duration="1565000" />
+      <workItem from="1760988816080" duration="44000" />
+      <workItem from="1760989677456" duration="108000" />
+      <workItem from="1760989801675" duration="42000" />
+      <workItem from="1760989857038" duration="118000" />
+      <workItem from="1760990005179" duration="324000" />
+      <workItem from="1761153627632" duration="11000" />
+      <workItem from="1762109028870" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -533,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760557941886</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="- changed the global readme, including new projects in it">
+      <option name="closed" value="true" />
+      <created>1760649958864</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1760649958864</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +575,8 @@
     <MESSAGE value="- added new commits, added new projects, added new readme files" />
     <MESSAGE value="- added new readme" />
     <MESSAGE value="- added new readme and a new ipynb file with codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added new readme and a new ipynb file with codes" />
+    <MESSAGE value="- changed the global readme, including new projects in it" />
+    <option name="LAST_COMMIT_MESSAGE" value="- changed the global readme, including new projects in it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
