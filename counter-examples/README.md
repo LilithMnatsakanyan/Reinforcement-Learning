@@ -112,17 +112,6 @@ Useful for contrasting with TD divergence.
 
 ---
 
-## 📊 Results
-
-| Book Figure | Description |
-|-------------|-------------|
-| **Figure 11.1** | Structure of Baird’s 7-state star |
-| **Figure 11.2** | Divergence of off-policy TD(0) |
-| **Figure 11.5** | Gradient-TD (GTD/TDC) behavior |
-| **Figure 11.6** | Emphatic TD behavior |
-
----
-
 ## 📖 Book Reference Visualizations
 
 ### **Figure 11_1 — Baird’s Star Diagram**
