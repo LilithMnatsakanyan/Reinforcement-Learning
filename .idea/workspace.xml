@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- updated readme">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project">
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -91,7 +91,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/access-control/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/counter-examples/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,11 +104,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\counter-examples\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\access-control\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mountain-car\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\trajectory-sampling\src" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
@@ -236,7 +236,10 @@
       <workItem from="1762109028870" duration="4445000" />
       <workItem from="1762673146955" duration="1929000" />
       <workItem from="1762676461380" duration="34000" />
-      <workItem from="1762698392980" duration="665000" />
+      <workItem from="1762698392980" duration="1359000" />
+      <workItem from="1762804399558" duration="77000" />
+      <workItem from="1763225354953" duration="3150000" />
+      <workItem from="1763232647936" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -574,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762112290065</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="- added new project">
+      <option name="closed" value="true" />
+      <created>1762699089414</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1762699089414</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +611,8 @@
     <MESSAGE value="- changed the global readme, including new projects in it" />
     <MESSAGE value="- added new project and readme" />
     <MESSAGE value="- updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="- updated readme" />
+    <MESSAGE value="- added new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,5 +636,13 @@
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1746906099430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$maximization_bias.coverage" NAME="maximization_bias Coverage Results" MODIFIED="1747736715815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maximization-bias/src" />
     <SUITE FILE_PATH="coverage/Reinforcement_Learning$black_jack.coverage" NAME="black_jack Coverage Results" MODIFIED="1745772620876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blackjack/src" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
