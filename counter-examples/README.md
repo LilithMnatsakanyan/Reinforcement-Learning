@@ -1,6 +1,6 @@
 # **Reinforcement Learning: Counter-Examples**
 
-This project implements **Baird’s Counterexample** from **Chapter 11 — Off-policy Methods with Function Approximation** in *Reinforcement Learning: An Introduction* by Richard S. Sutton & Andrew G. Barto*.  
+This project implements **Baird’s Counterexample** from **Chapter 11 — Off-policy Methods with Function Approximation** in *Reinforcement Learning: An Introduction* by *Richard S. Sutton & Andrew G. Barto*.  
 It demonstrates how **off-policy TD(0)** diverges when used with **linear function approximation**, even in a simple 7-state MDP.
 
 The project includes:
@@ -8,10 +8,12 @@ The project includes:
 - **Baird’s 7-state star MDP**
 - **Semi-gradient off-policy TD(0)** (divergence)
 - **Semi-gradient Dynamic Programming (DP)** (stable baseline)
+- **Gradient-TD (TDC / GTD(0))**
+- **Expected TDC**
+- **Expected Emphatic TD (ETD)**
 - **RMSVE** and **RMSPBE** evaluation
 
 ---
-
 
 ## **📂 Project Structure**
 ```
@@ -39,8 +41,9 @@ counter-examples/
 - Implements the **canonical 7-state counterexample**
 - Shows divergence of **semi-gradient off-policy TD(0)**
 - Provides **stable semi-gradient DP** as comparison
-- Computes **RMSVE** and **RMSPBE** error metrics
-- Reproduces the qualitative behavior in **Figure 11.2**
+- Implements **TDC (GTD(0))**, **Expected TDC**, and **Expected Emphatic TD**
+- Computes **RMSVE** and **RMSPBE**
+- Reproduces the qualitative behavior in **Figures 11.1–11.6**
 
 ---
 
@@ -49,12 +52,12 @@ counter-examples/
 This minimal MDP reveals a fundamental failure of off-policy TD with linear approximation.
 
 - **Upper states (0–5):**
-    - Feature *i* = 2
-    - Last feature = 1
+  - Feature *i* = 2
+  - Last feature = 1
 
 - **Lower state (6):**
-    - Second-to-last feature = 1
-    - Last feature = 2
+  - Second-to-last feature = 1
+  - Last feature = 2
 
 - **Reward:** always 0
 - **True value function:** identically 0
@@ -69,15 +72,11 @@ This mismatch (off-policy sampling + bootstrapping + function approximation) cau
 
 ### **1. RMSVE — Root Mean Square Value Error**
 
-Since the true value function is zero:
-
 $$
-\text{RMSVE} = \sqrt{\sum_s \mu(s) \bigl( w^\top x(s) \bigr)^2}
+\text{RMSVE} = \sqrt{\sum_s \mu(s) (w^\top x(s))^2}
 $$
 
 ### **2. RMSPBE — Root Mean Square Projected Bellman Error**
-
-Computed using the projection matrix:
 
 $$
 \Pi = F (F^\top D F)^+ F^\top D
@@ -90,13 +89,12 @@ $$
 Implements Sutton’s **Equation (11.2)**:
 
 $$
-w \leftarrow w + \alpha \, \rho \, \delta \, x(s)
+w \leftarrow w + \alpha \rho \delta x(s)
 $$
 
 - Off-policy sampling
 - Linear function approximation
 - Bootstrapping
-
 
 ---
 
@@ -108,7 +106,39 @@ Implements **Equation (11.9)**:
 - No bootstrapping instability
 - Produces stable weight evolution
 
-Useful for contrasting with TD divergence.
+---
+
+## 🔄 Gradient-TD (TDC / GTD(0))
+
+The TDC update follows the sampling equations from Chapter 11:
+
+- Maintains **primary weights** \( w \)
+- Maintains **secondary weights** \( v \)
+- Uses **gradient correction** to minimize MSPBE
+
+TDC **converges** on Baird’s counterexample.
+
+---
+
+## 🔄 Expected TDC
+
+Expected TDC computes the **expected update**:
+
+- Loops over all states
+- Computes expected TD error
+- Updates both \( w \) and \( v \)
+
+Produces smooth and stable convergence.
+
+---
+
+## 🔄 Expected Emphatic TD (ETD)
+
+Expected ETD implements emphatic weighting:
+
+- Updates the **emphasis \( M \)**
+- Uses the emphatic TD update rule
+- Converges reliably in off-policy settings
 
 ---
 
@@ -120,31 +150,40 @@ Useful for contrasting with TD divergence.
 ### **Figure 11_2 — Off-policy TD Divergence (Book)**
 <img src="book_images/Figure_11_2.PNG" width="600"/>
 
+### **Figure 11_5 — TDC Behavior (Book)**
+<img src="book_images/Figure_11_5.PNG" width="600"/>
+
+### **Figure 11_6 — Emphatic TD Behavior (Book)**
+<img src="book_images/Figure_11_6.PNG" width="600"/>
+
 ---
 
-## 🖼️ Generated Visualization
+## 🖼️ Generated Visualizations
 
 ### **Figure 11_2 — RMSVE Divergence (Reproduced)**
 <img src="generated_images/figure_11_2.png" width="600"/>
 
-The reproduced RMSVE curve matches the characteristic exponential divergence described in Figure 11.2.
+### **Figure 11_5 — TDC Convergence (Reproduced)**
+<img src="generated_images/figure_11_5.png" width="600"/>
+
+### **Figure 11_6 — Expected ETD Convergence (Reproduced)**
+<img src="generated_images/figure_11_6.png" width="600"/>
 
 ---
 
 ## 🔍 Key Observations
-- Off-policy TD(0) **diverges**, even in simple linear settings
-- Divergence arises from the combination of:
-    - Function approximation
-    - Bootstrapping
-    - Off-policy sampling
-- Semi-gradient DP offers a **stable baseline**
-- RMSVE and RMSPBE give insight into learning behavior and error geometry
+- Off-policy TD(0) **diverges**
+- Divergence arises from:
+  - Function approximation
+  - Bootstrapping
+  - Off-policy sampling
+- TDC, Expected TDC, and ETD all **converge**
+- RMSVE and RMSPBE highlight stability differences across methods
 
 ---
 
 ## 🏁 Conclusion
 
-This project cleanly reproduces **Baird’s Counterexample**, demonstrating the failure of **off-policy TD(0)** under linear function approximation.  
-It provides stable and unstable methods (DP vs. TD) and error metrics consistent with **Chapter 11** of Sutton & Barto.
+This project reproduces **Baird’s Counterexample**, demonstrating the instability of **off-policy TD(0)** under linear function approximation.  
+It includes stable alternatives such as **TDC**, **Expected TDC**, and **Expected Emphatic TD**, matching the results presented in **Chapter 11** of Sutton & Barto.
 
----

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project">
-      <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project's first part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/bairds_counterexample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/bairds_counterexample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/emphatic_baird.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/emphatic_baird.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/tdc_baird.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/tdc_baird.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/src/counter_example.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +244,8 @@
       <workItem from="1762698392980" duration="1359000" />
       <workItem from="1762804399558" duration="77000" />
       <workItem from="1763225354953" duration="3150000" />
-      <workItem from="1763232647936" duration="1014000" />
+      <workItem from="1763232647936" duration="1326000" />
+      <workItem from="1763837930425" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -585,7 +591,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762699089414</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="- added new project's first part">
+      <option name="closed" value="true" />
+      <created>1763233780859</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1763233780859</updated>
+    </task>
+    <task id="LOCAL-00045" summary="- added new project's first part">
+      <option name="closed" value="true" />
+      <created>1763233867322</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1763233867322</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +634,8 @@
     <MESSAGE value="- added new project and readme" />
     <MESSAGE value="- updated readme" />
     <MESSAGE value="- added new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added new project" />
+    <MESSAGE value="- added new project's first part" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new project's first part" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
