@@ -12,8 +12,8 @@ The goal of this repository is to develop a deeper understanding of:
 
 ## 📌 **Algorithms and Their Implemented Environments**
 
-| **Algorithm / Method** | **Environment / Project (Linked)** |
-|-------------------------|------------------------------------|
+| **Algorithm / Method** | **Environment / Project** |
+|-------------------------|---------------------------|
 | Multi-Armed Bandits (Action–Value Methods) | [ten-armed-testbed](./ten-armed-testbed/) |
 | Maximization Bias, Double Q-Learning | [maximization-bias](./maximization-bias/) |
 | Dynamic Programming (Policy Evaluation & Improvement) | [gridworld-dp](./gridworld-dp/) |
@@ -31,6 +31,7 @@ The goal of this repository is to develop a deeper understanding of:
 | Trajectory Sampling (Update Distribution) | [trajectory-sampling](./trajectory-sampling/) |
 | Coarse Coding Generalization | [coarse-coding](./coarse-coding/) |
 | Semi-gradient n-step SARSA + Tile Coding | [mountain-car](./mountain-car/) |
+| Sarsa(λ) + Tile Coding (Eligibility Traces) | [mountain-car-et](./mountain-car-et/) |
 | Differential Semi-gradient Sarsa (Average Reward) | [access-control](./access-control/) |
 | Off-Policy Failures (Baird’s Counterexample, TDC, Expected TDC, Expected ETD) | [counter-examples](./counter-examples/) |
 | Importance Sampling Variance (Off-policy MC failure) | [infinite-variance](./infinite-variance/) |
@@ -41,7 +42,6 @@ Each project explores a specific RL concept or algorithm and includes its own `R
 - **Objectives**
 - **Methodology**
 - **Key Results**
-
 ---
 
 ## 🚀 **Getting Started**

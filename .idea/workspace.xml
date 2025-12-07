@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project's last part">
+    <list default="true" id="66858528-d18c-440c-ad4e-c261c0ccbcfc" name="Changes" comment="- added new project and readme">
       <change beforePath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reinforcement Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/generated_images/figure_11_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/bairds_counterexample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/bairds_counterexample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/emphatic_baird.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/emphatic_baird.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter-examples/notebooks/tdc_baird.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/counter-examples/notebooks/tdc_baird.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,49 +76,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.bandit.executor": "Run",
-    "Python.black_jack.executor": "Run",
-    "Python.cliff_walking.executor": "Run",
-    "Python.grid_world.executor": "Run",
-    "Python.infinite_variance.executor": "Run",
-    "Python.maximization_bias.executor": "Run",
-    "Python.random_walk.executor": "Run",
-    "Python.tic_tac_toe.executor": "Run",
-    "Python.windy_grid_world.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/lilit/PycharmProjects/Reinforcement_Learning/random-walk-et/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bandit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.black_jack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliff_walking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infinite_variance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximization_bias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tic_tac_toe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.windy_grid_world.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lilit/PycharmProjects/Reinforcement_Learning/mountain-car-et/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mountain-car-et\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-et\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\counter-examples\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\access-control\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mountain-car\src" />
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-et\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning" />
+      <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-et\src" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\random-walk-fa\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\mazes\notebooks" />
       <recent name="C:\Users\lilit\PycharmProjects\Reinforcement_Learning\cliff-walking" />
@@ -244,7 +249,12 @@
       <workItem from="1763837930425" duration="1962000" />
       <workItem from="1763844118891" duration="19000" />
       <workItem from="1763917818213" duration="1048000" />
-      <workItem from="1764449386956" duration="4836000" />
+      <workItem from="1764449386956" duration="4922000" />
+      <workItem from="1764524172973" duration="154000" />
+      <workItem from="1764795476927" duration="2311000" />
+      <workItem from="1764799433632" duration="175000" />
+      <workItem from="1764800218214" duration="392000" />
+      <workItem from="1765132371275" duration="2932000" />
     </task>
     <task id="LOCAL-00001" summary="- Finished the project and added the README file.">
       <option name="closed" value="true" />
@@ -614,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763840572561</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="- added new project and readme">
+      <option name="closed" value="true" />
+      <created>1764454607915</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1764454607915</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,12 +656,12 @@
     <MESSAGE value="- added new readme" />
     <MESSAGE value="- added new readme and a new ipynb file with codes" />
     <MESSAGE value="- changed the global readme, including new projects in it" />
-    <MESSAGE value="- added new project and readme" />
     <MESSAGE value="- updated readme" />
     <MESSAGE value="- added new project" />
     <MESSAGE value="- added new project's first part" />
     <MESSAGE value="- added new project's last part" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added new project's last part" />
+    <MESSAGE value="- added new project and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new project and readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
